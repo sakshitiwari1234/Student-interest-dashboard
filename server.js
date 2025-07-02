@@ -67,7 +67,7 @@ app.post('/post', async(req,res)=>{
     });
     await User.save();
     console.log(User)
-    res.send("Form submitted");
+    res.send(alert("Form Submitted"));
 
 
 
